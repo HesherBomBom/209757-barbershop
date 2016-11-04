@@ -15,6 +15,11 @@ h2 {
   line-height: 1.25;
 }
 
+h3 {
+  font-size: 14px;
+  line-height: 1.2857;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -114,6 +119,24 @@ h2 {
   float: right;
   width: 720px;
   margin-bottom: 45px;
+  font-size: 0px;
+}
+
+.item {
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.item:nth-child(n+4) {
+  margin-bottom: 0px;
 }
 
 .pagination {
@@ -121,3 +144,12 @@ h2 {
   margin-left: 240px;
 }
 
+.gallery {
+  float: left;
+  width: 460px;
+}
+
+.description {
+  float: right;
+  width: 400px;
+}
