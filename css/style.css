@@ -3,7 +3,6 @@ body {
   text-transform: uppercase; 
   font-size: 14px; 
   line-height: 1.7142;
-  background-color: grey;
 }
 
 h1 {
@@ -35,15 +34,11 @@ h2 {
 .main-navigation {
   width: 780px;
   float: left;
-
-  min-height: 70px;
 }
 
 .user-block {
   width: 140px;
   float: right;
-
-  min-height: 70px;
 }
 
 .index-logo {
@@ -103,5 +98,26 @@ h2 {
 .footer-copyright {
   float: right;
   width: 160px;               /*отличается от демки*/
+}
+
+.secondary-nav {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.filters {
+  float: left;
+  width: 220px;
+}
+
+.items {
+  float: right;
+  width: 720px;
+  margin-bottom: 45px;
+}
+
+.pagination {
+  width: 220px;
+  margin-left: 240px;
 }
 
