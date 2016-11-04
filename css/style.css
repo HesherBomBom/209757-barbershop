@@ -151,7 +151,7 @@ h3 {
   width: 460px;
 }
 
-.gallery>img:nth-child(n+2) {
+.miniature-img>img {
   width: 140;
   height: 150;
 }
@@ -172,5 +172,4 @@ img {
 
 .miniature-img>img {
   display: inline-block;
-
 }
