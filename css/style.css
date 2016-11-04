@@ -3,8 +3,6 @@ body {
   text-transform: uppercase; 
   font-size: 14px; 
   line-height: 1.7142;
-  padding: 0;
-  margin: 0;
 }
 
 h1 {
@@ -151,26 +149,7 @@ h3 {
   width: 460px;
 }
 
-.gallery>img:nth-child(n+2) {
-  width: 140;
-  height: 150;
-}
-
 .description {
   float: right;
   width: 400px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.miniature-img {
-  font-size: 0px;
-}
-
-.miniature-img>img {
-  display: inline-block;
-
 }
