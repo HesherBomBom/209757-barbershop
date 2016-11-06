@@ -22,6 +22,11 @@ h3 {
   line-height: 1.2857;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -51,9 +56,7 @@ h3 {
 .index-logo {
   height: 204px;
   width: 368px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
+  margin: 0 auto 25px;
 }
 
 .features {
@@ -67,7 +70,7 @@ h3 {
 }
 
 .features-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .index-content {
@@ -121,7 +124,7 @@ h3 {
   float: right;
   width: 720px;
   margin-bottom: 45px;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .item {
@@ -134,7 +137,7 @@ h3 {
 }
 
 .item:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .item:nth-child(n+4) {
@@ -142,8 +145,8 @@ h3 {
 }
 
 .pagination {
-  width: 220px;
-  margin-left: 240px;
+  margin-top: 45px;
+  font-size: 14px;
 }
 
 .gallery {
@@ -152,8 +155,8 @@ h3 {
 }
 
 .miniature-img>img {
-  width: 140;
-  height: 150;
+  width: 140px;
+  height: 150px;
 }
 
 .description {
@@ -161,15 +164,15 @@ h3 {
   width: 400px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .miniature-img {
-  font-size: 0px;
+  font-size: 0;
 }
 
 .miniature-img>img {
   display: inline-block;
+}
+
+.item-title>span {
+  display: block;
+  text-transform: initial;
 }
