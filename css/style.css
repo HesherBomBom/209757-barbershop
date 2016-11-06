@@ -141,7 +141,7 @@ img {
 }
 
 .item:nth-child(n+4) {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .pagination {
@@ -149,7 +149,9 @@ img {
   font-size: 14px;
 }
 
-.gallery {
+.product-gallery {
+  float: left;
+  width: 460px;
 }
 
 .miniature-img>img {
