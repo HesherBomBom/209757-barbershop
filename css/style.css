@@ -150,13 +150,12 @@ img {
 }
 
 .gallery {
-  float: left;
-  width: 460px;
 }
 
 .miniature-img>img {
   width: 140px;
   height: 150px;
+  display: inline-block;
 }
 
 .description {
@@ -168,11 +167,11 @@ img {
   font-size: 0;
 }
 
-.miniature-img>img {
-  display: inline-block;
-}
-
 .item-title>span {
   display: block;
   text-transform: initial;
+}
+
+.gallery-content {
+  margin: 0;
 }
